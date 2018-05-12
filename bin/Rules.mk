@@ -2,8 +2,8 @@ include mk/header.mk
 
 dist_root_$(d)=/ipfs/QmT3CLJKJzWPuN4NAN4LLy69UpKskMF3AuYhXstKdn8V43
 
-$(d)/gx: $(d)/gx-v0.12.1
-$(d)/gx-go: $(d)/gx-go-v1.6.0
+$(d)/gx: $(d)/gx-v0.13.0
+$(d)/gx-go: $(d)/gx-go-v1.7.0
 
 TGTS_$(d) := $(d)/gx $(d)/gx-go
 DISTCLEAN += $(wildcard $(d)/gx-v*) $(wildcard $(d)/gx-go-v*) $(d)/tmp
